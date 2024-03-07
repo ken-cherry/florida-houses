@@ -1,15 +1,15 @@
 import React from "react";
 import { nanoid } from "nanoid";
 
-import { houses } from "../data";
+// import { houses } from "../data";
 
 const HouseComponent = () => {
   return (
     <>
       <div className="section-center">
         {houses.map((item) => {
-          const { image, alt, address, city, state, link, price, directions } =
-            item;
+          const { image, alt, address, city, link, price, directions } = item;
+
           return (
             <div className="house-listing" key={nanoid}>
               <div className="image-house">

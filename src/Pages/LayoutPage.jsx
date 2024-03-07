@@ -6,8 +6,11 @@ const LayoutPage = () => {
   return (
     <>
       <NavbarComponent />
-      <Outlet />
-      <FooterComponent />
+      <section className="page">
+        <Outlet />
+      </section>
+
+      {/* <FooterComponent /> */}
     </>
   );
 };

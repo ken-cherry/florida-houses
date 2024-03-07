@@ -5,6 +5,7 @@
 - Vite
 - React Router DOM Libraries
 - nanoid
+- Styled Components
 
 # Purpose of building this application.
 
