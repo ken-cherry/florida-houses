@@ -9,7 +9,7 @@ const Wrapper = styled.section`
     max-width: 500px;
     display: grid;
     place-items: center;
-    margin-top: 2rem;
+    margin: 2rem auto;
     border: 2px solid black;
     background-color: var(--primary-200);
     border-radius: var(--borderRadius);

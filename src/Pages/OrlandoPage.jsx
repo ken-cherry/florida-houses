@@ -13,8 +13,8 @@ const OrlandoPage = () => {
             const { image, alt, address, city, link, price, directions } = item;
             return (
               <div className="house-listing" key={nanoid}>
+                <h2>{city}</h2>
                 <div className="image-house">
-                  <h2>{city}</h2>
                   <a href={directions} target="_blank" rel="noreferrer">
                     <img src={image} alt={alt} className="image" />
                   </a>
