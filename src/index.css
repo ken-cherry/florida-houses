@@ -52,7 +52,7 @@ html {
   --transition: 0.3s ease-in-out all;
   --max-width: 1120px;
   --fixed-width: 600px;
-  --view-width: 90vw;
+  --view-width: 100vw;
 }
 
 /* PROJECT CSS */
