@@ -57,7 +57,7 @@ html {
 
 /* PROJECT CSS */
 .page {
-  width: var(--view-width);
+  /* width: var(--view-width); */
   max-width: var(--max-width);
   margin: auto;
   padding: 1rem 2rem;
