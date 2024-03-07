@@ -6,8 +6,10 @@ const Wrapper = styled.section`
     grid-template-columns: 1fr;
   }
   .house-listing {
+    max-width: 500px;
     display: grid;
     place-items: center;
+    margin-top: 2rem;
   }
   .image-house {
     display: grid;
@@ -15,7 +17,8 @@ const Wrapper = styled.section`
     margin-top: 1rem;
   }
   .image {
-    width: 90vw;
+    height: 250px;
+    width: 376px;
   }
 `;
 export default Wrapper;

@@ -6,16 +6,23 @@ const Wrapper = styled.section`
     grid-template-columns: 1fr;
   }
   .house-listing {
+    max-width: 500px;
     display: grid;
     place-items: center;
+    margin-top: 2rem;
   }
   .image-house {
     display: grid;
     place-items: center;
-    margin-top: 1rem;
   }
   .image {
-    width: 90vw;
+    height: 250px;
+    width: 376px;
+  }
+  @media only screen and (min-width: 508px) {
+    .section-center {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 `;
 export default Wrapper;
