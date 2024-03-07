@@ -6,10 +6,13 @@ const Wrapper = styled.section`
     grid-template-columns: 1fr;
   }
   .house-listing {
-    max-width: 500px;
+    /* max-width: 500px; */
     display: grid;
     place-items: center;
     margin-top: 2rem;
+    border: 2px solid black;
+    background-color: var(--primary-200);
+    border-radius: var(--borderRadius);
   }
   .image-house {
     display: grid;

@@ -70,7 +70,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--primary-200);
+  background-color: var(--primary-400);
   cursor: pointer;
   transition: border-color 0.25s;
 }
