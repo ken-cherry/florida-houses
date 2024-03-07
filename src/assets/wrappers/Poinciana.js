@@ -4,6 +4,7 @@ const Wrapper = styled.section`
   .section-center {
     display: grid;
     grid-template-columns: 1fr;
+    /* padding: auto; */
   }
   .house-listing {
     /* max-width: 500px; */
