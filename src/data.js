@@ -24,4 +24,15 @@ export const poinciana = [
     directions:
       "https://www.google.com/maps/place/620+Robin+Ln,+Kissimmee,+FL+34759/@28.0998018,-81.462723,17z/data=!3m1!4b1!4m6!3m5!1s0x88dd9eed9ac76a61:0x602129cfa0756be9!8m2!3d28.0997971!4d-81.4601481!16s%2Fg%2F11c1zw_mp5?entry=ttu",
   },
+  {
+    image:
+      "https://photos.zillowstatic.com/fp/8bc4a8c35e1307b3ba15ccbc53aa6e67-uncropped_scaled_within_1536_1152.webp",
+    alt: "may not be available anymore",
+    address: "646 Crane Dr.",
+    city: "Poinciana",
+    link: "https://www.zillow.com/homedetails/646-Crane-Dr-Poinciana-FL-34759/47390466_zpid/",
+    price: "1,600",
+    directions:
+      "https://www.google.com/maps/place/646+Crane+Dr,+Kissimmee,+FL+34759/@28.1068403,-81.4664556,17z/data=!3m1!4b1!4m6!3m5!1s0x88dd9e8c5388205f:0x5faf25c92a20a680!8m2!3d28.1068356!4d-81.4638807!16s%2Fg%2F11c1yrckzw?entry=ttu",
+  },
 ];

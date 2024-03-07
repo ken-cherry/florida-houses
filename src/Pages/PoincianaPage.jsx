@@ -23,7 +23,7 @@ const PoincianaPage = () => {
                 <h2>${price}</h2>
                 <h3>
                   <a href={link} target="_blank" rel="noreferrer">
-                    Listing
+                    <button className="btn">Listing</button>
                   </a>
                 </h3>
               </div>
