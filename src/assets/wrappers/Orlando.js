@@ -23,6 +23,11 @@ const Wrapper = styled.section`
     height: 250px;
     width: 376px;
   }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0.5rem;
+  }
   @media only screen and (min-width: 508px) {
     .section-center {
       grid-template-columns: repeat(2, 1fr);

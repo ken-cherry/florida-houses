@@ -22,10 +22,13 @@ const PoincianaPage = () => {
                   </div>
                   <h2>{address}</h2>
                   <h2>${price}</h2>
-                  <h3>
+                  <h3 className="buttons">
                     <a href={link} target="_blank" rel="noreferrer">
                       <button className="btn">Listing</button>
                     </a>
+                    <button className="btn" style={{ backgroundColor: "red" }}>
+                      Remove
+                    </button>
                   </h3>
                 </div>
               </>
