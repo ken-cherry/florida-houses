@@ -1,5 +1,5 @@
 import React from "react";
-import { nanoid } from "nanoid";
+// import { nanoid } from "nanoid";
 
 import { poinciana } from "../data";
 import Wrapper from "../assets/wrappers/Poinciana";
@@ -10,10 +10,11 @@ const PoincianaPage = () => {
       <Wrapper>
         <div className="section-center">
           {poinciana.map((item) => {
-            const { image, alt, address, city, link, price, directions } = item;
+            const { id, image, alt, address, city, link, price, directions } =
+              item;
             return (
               <>
-                <div className="house-listing" key={nanoid()}>
+                <div className="house-listing" key={id}>
                   <h2>{city}</h2>
                   <div className="image-house">
                     <a href={directions} target="_blank" rel="noreferrer">
