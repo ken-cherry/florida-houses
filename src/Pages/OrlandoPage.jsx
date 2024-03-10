@@ -12,7 +12,7 @@ const OrlandoPage = () => {
           {orlando.map((item) => {
             const { image, alt, address, city, link, price, directions } = item;
             return (
-              <div className="house-listing" key={nanoid}>
+              <div className="house-listing" key={nanoid()}>
                 <h2>{city}</h2>
                 <div className="image-house">
                   <a href={directions} target="_blank" rel="noreferrer">

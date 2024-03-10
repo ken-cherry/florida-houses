@@ -58,9 +58,11 @@ html {
 /* PROJECT CSS */
 .page {
   /* width: var(--view-width); */
+  /* height: 100vh; */
   max-width: var(--max-width);
   margin: auto;
   padding: 1rem 2rem;
+  /* background-color: pink; */
 }
 
 button {
