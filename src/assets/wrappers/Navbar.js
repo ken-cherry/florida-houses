@@ -23,7 +23,8 @@ const Wrapper = styled.nav`
     margin-top: 1rem;
   }
   .nav-link {
-    color: var(--grey-900);
+    color: var(--grey-950);
+    font-weight: 700;
     padding: 0.5rem 0.5rem 0.5rem 0;
     transition: var(--transition);
     letter-spacing: 2px;

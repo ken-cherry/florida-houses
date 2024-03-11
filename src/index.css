@@ -61,13 +61,17 @@ html {
 }
 
 /* PROJECT CSS */
+section {
+  height: calc(100vh - 102px);
+}
 .page {
   /* width: var(--view-width); */
   /* height: 100vh; */
-  max-width: var(--max-width);
+  /* max-width: var(--max-width); */
+
   margin: auto;
   padding: 1rem 2rem;
-  /* background-color: pink; */
+  background-color: pink;
 }
 
 button {
