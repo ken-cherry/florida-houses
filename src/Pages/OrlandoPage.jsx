@@ -1,5 +1,5 @@
 import React from "react";
-// import { nanoid } from "nanoid";
+import { nanoid } from "nanoid";
 import Wrapper from "../assets/wrappers/Orlando";
 
 import { orlando } from "../data";
@@ -10,10 +10,9 @@ const OrlandoPage = () => {
       <Wrapper>
         <div className="section-center">
           {orlando.map((item) => {
-            const { id, image, alt, address, city, link, price, directions } =
-              item;
+            const { image, alt, address, city, link, price, directions } = item;
             return (
-              <div className="house-listing" key={id}>
+              <div className="house-listing" key={nanoid()}>
                 <h2>{city}</h2>
                 <div className="image-house">
                   <a href={directions} target="_blank" rel="noreferrer">

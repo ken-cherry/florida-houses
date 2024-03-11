@@ -50,18 +50,18 @@ export const poinciana = [
     directions:
       "https://www.google.com/maps/place/646+Crane+Dr,+Kissimmee,+FL+34759/@28.1068403,-81.4664556,17z/data=!3m1!4b1!4m6!3m5!1s0x88dd9e8c5388205f:0x5faf25c92a20a680!8m2!3d28.1068356!4d-81.4638807!16s%2Fg%2F11c1yrckzw?entry=ttu",
   },
-  {
-    id: 3,
-    image:
-      "https://photos.zillowstatic.com/fp/1210eb280e03cc1e186741c5ab49297f-uncropped_scaled_within_1536_1152.webp",
-    alt: "may not be available anymore",
-    address: "1805 Manitoba Ct",
-    city: "Poinciana",
-    link: "https://www.zillow.com/homedetails/1805-Manitoba-Ct-Poinciana-FL-34759/66195807_zpid/",
-    price: "1,595",
-    directions:
-      "https://www.google.com/maps/place/1805+Manitoba+Ct,+Poinciana,+FL+34759/@28.0707199,-81.5033407,17z/data=!3m1!4b1!4m6!3m5!1s0x88dd9fc56741457f:0x3f62fbcaf457ea38!8m2!3d28.0707199!4d-81.5033407!16s%2Fg%2F11c1jm1zbz?entry=ttu",
-  },
+  // {
+  //   id: 3,
+  //   image:
+  //     "https://photos.zillowstatic.com/fp/1210eb280e03cc1e186741c5ab49297f-uncropped_scaled_within_1536_1152.webp",
+  //   alt: "may not be available anymore",
+  //   address: "1805 Manitoba Ct",
+  //   city: "Poinciana",
+  //   link: "https://www.zillow.com/homedetails/1805-Manitoba-Ct-Poinciana-FL-34759/66195807_zpid/",
+  //   price: "1,595",
+  //   directions:
+  //     "https://www.google.com/maps/place/1805+Manitoba+Ct,+Poinciana,+FL+34759/@28.0707199,-81.5033407,17z/data=!3m1!4b1!4m6!3m5!1s0x88dd9fc56741457f:0x3f62fbcaf457ea38!8m2!3d28.0707199!4d-81.5033407!16s%2Fg%2F11c1jm1zbz?entry=ttu",
+  // },
   {
     id: 4,
     image:
