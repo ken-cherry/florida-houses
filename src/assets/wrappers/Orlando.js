@@ -20,19 +20,19 @@ const Wrapper = styled.section`
     /* margin-top: 1rem; */
   }
   .image {
-    height: 250px;
-    width: 376px;
+    height: 150px;
+    width: 276px;
   }
   .buttons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0.5rem;
   }
-  /* @media only screen and (min-width: 508px) {
+  @media only screen and (min-width: 768px) {
     .section-center {
       grid-template-columns: repeat(2, 1fr);
       column-gap: 1rem;
     }
-  } */
+  }
 `;
 export default Wrapper;
