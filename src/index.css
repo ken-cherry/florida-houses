@@ -61,17 +61,14 @@ html {
 }
 
 /* PROJECT CSS */
-section {
-  height: calc(100vh - 102px);
-}
 .page {
   /* width: var(--view-width); */
   /* height: 100vh; */
   /* max-width: var(--max-width); */
-
+  height: calc(100% - 102px);
   margin: auto;
   padding: 1rem 2rem;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 button {
@@ -94,8 +91,8 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 .remove-btn {
-  background-color: var(--red-dark);
-  color: white;
+  background-color: pink;
+  /* color: white; */
 }
 .remove-btn:hover {
   background-color: red;
