@@ -27,6 +27,7 @@ const Wrapper = styled.section`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   @media only screen and (min-width: 768px) {
     .section-center {

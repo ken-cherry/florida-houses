@@ -53,6 +53,11 @@ html {
   --max-width: 1120px;
   --fixed-width: 600px;
   --view-width: 90vw;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* PROJECT CSS */
@@ -83,6 +88,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+.remove-btn {
+  background-color: var(--red-dark);
+  color: white;
+}
+.remove-btn:hover {
+  background-color: red;
 }
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
