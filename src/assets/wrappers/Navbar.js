@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Wrapper = styled.nav`
   background-color: var(--slate-200);
   .nav-center {
-    /* width: var(--view-width); */
+    width: var(--view-width);
     max-width: var(--max-width);
     margin: 0 auto;
     display: flex;
