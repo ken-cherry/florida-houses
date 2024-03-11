@@ -25,9 +25,7 @@ const OrlandoPage = () => {
                   <a href={link} target="_blank" rel="noreferrer">
                     <button className="btn">Listing</button>
                   </a>
-                  <button className="btn" style={{ backgroundColor: "red" }}>
-                    Remove
-                  </button>
+                  <button className="btn remove-btn">Remove</button>
                 </h3>
               </div>
             );
