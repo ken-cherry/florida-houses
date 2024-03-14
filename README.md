@@ -9,7 +9,7 @@
 
 # Purpose of building this application.
 
-- So my mother and her boyfriend can look visit houses they want to look at.
+- So my mother and her boyfriend can find houses they want to look at.
 
 # Launch project in your preferred IDE
 

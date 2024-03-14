@@ -7,7 +7,9 @@ const NavbarComponent = () => {
     <>
       <Wrapper>
         <div className="nav-center">
-          <span className="logo">House Hunting</span>
+          <NavLink to="/">
+            <span className="logo">House Hunting</span>
+          </NavLink>
           <div className="nav-links">
             <NavLink to="/" className="nav-link">
               Home
