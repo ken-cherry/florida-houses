@@ -18,6 +18,9 @@ const NavbarComponent = () => {
             <NavLink to="/poinciana" className="nav-link">
               Poinciana
             </NavLink>
+            <NavLink to="/kissimmee" className="nav-link">
+              Kissimmee
+            </NavLink>
           </div>
         </div>
       </Wrapper>

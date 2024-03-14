@@ -9,6 +9,7 @@ import {
   PoincianaPage,
 } from "./Pages";
 import { FooterComponent, NavbarComponent, HouseComponent } from "./components";
+import KissimmeePage from "./Pages/KissimmeePage";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/poinciana",
         element: <PoincianaPage />,
+      },
+      {
+        path: "/kissimmee",
+        element: <KissimmeePage />,
       },
     ],
   },

@@ -2,7 +2,7 @@ import React from "react";
 import { nanoid } from "nanoid";
 
 import { poinciana } from "../data";
-import Wrapper from "../assets/wrappers/Poinciana";
+import Wrapper from "../assets/wrappers/Cities";
 
 const PoincianaPage = () => {
   return (

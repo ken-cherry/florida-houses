@@ -2,14 +2,14 @@ import React from "react";
 import { nanoid } from "nanoid";
 import Wrapper from "../assets/wrappers/Cities";
 
-import { orlando } from "../data";
+import { kissimmee } from "../data";
 
-const OrlandoPage = () => {
+const KissimmeePage = () => {
   return (
     <>
       <Wrapper>
         <div className="section-center">
-          {orlando.map((item) => {
+          {kissimmee.map((item) => {
             const { image, alt, address, city, link, price, directions } = item;
             return (
               <div className="house-listing" key={nanoid()}>
@@ -36,4 +36,4 @@ const OrlandoPage = () => {
   );
 };
 
-export default OrlandoPage;
+export default KissimmeePage;

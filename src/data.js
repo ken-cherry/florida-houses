@@ -1,6 +1,5 @@
 export const orlando = [
   {
-    id: 7,
     image:
       "https://photos.zillowstatic.com/fp/d8a0c1d5ffb7ce73af1bdf7b3ae695a9-cc_ft_768.webp",
     alt: "may not be available anymore",
@@ -12,7 +11,6 @@ export const orlando = [
       "https://www.google.com/maps/dir//2617+Dobbin+Dr,+Orlando,+FL+32817/@28.5831504,-81.2505711,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x88e768aca1e8650f:0x2e586b6632290075!2m2!1d-81.2505711!2d28.5831504!3e0?entry=ttu",
   },
   {
-    id: 8,
     image:
       "https://photos.zillowstatic.com/fp/d612455987f8b8dfd31ca115c7f53b35-uncropped_scaled_within_1536_1152.webp",
     alt: "may not be available anymore",
@@ -27,7 +25,6 @@ export const orlando = [
 
 export const poinciana = [
   {
-    id: 1,
     image:
       "https://www.compass.com/m/4315348441c3ec357ff15d4149e73c292c6366a2_img_0_82af1/640x480.webp",
     alt: "may not be available anymore",
@@ -39,7 +36,6 @@ export const poinciana = [
       "https://www.google.com/maps/place/620+Robin+Ln,+Kissimmee,+FL+34759/@28.0998018,-81.462723,17z/data=!3m1!4b1!4m6!3m5!1s0x88dd9eed9ac76a61:0x602129cfa0756be9!8m2!3d28.0997971!4d-81.4601481!16s%2Fg%2F11c1zw_mp5?entry=ttu",
   },
   {
-    id: 2,
     image:
       "https://photos.zillowstatic.com/fp/8bc4a8c35e1307b3ba15ccbc53aa6e67-uncropped_scaled_within_1536_1152.webp",
     alt: "may not be available anymore",
@@ -63,7 +59,6 @@ export const poinciana = [
   //     "https://www.google.com/maps/place/1805+Manitoba+Ct,+Poinciana,+FL+34759/@28.0707199,-81.5033407,17z/data=!3m1!4b1!4m6!3m5!1s0x88dd9fc56741457f:0x3f62fbcaf457ea38!8m2!3d28.0707199!4d-81.5033407!16s%2Fg%2F11c1jm1zbz?entry=ttu",
   // },
   {
-    id: 4,
     image:
       "https://photos.zillowstatic.com/fp/a66aa684a99ba652d9ea61abda20c127-uncropped_scaled_within_1536_1152.webp",
     alt: "may not be available anymore",
@@ -74,7 +69,6 @@ export const poinciana = [
     directions: "",
   },
   {
-    id: 5,
     image:
       "https://photos.zillowstatic.com/fp/6e6fb680b0eee7f3d3b7b6d1b624e68e-uncropped_scaled_within_1536_1152.webp",
     alt: "may not be available anymore",
@@ -89,7 +83,6 @@ export const poinciana = [
 
 export const kissimmee = [
   {
-    id: 6,
     image:
       "https://photos.zillowstatic.com/fp/fa048c9aee99e68e80bf5e2c37da9652-uncropped_scaled_within_1536_1152.webp",
     alt: "may not be available anymore",
@@ -99,6 +92,17 @@ export const kissimmee = [
     price: "1,650",
     directions:
       "https://www.google.com/maps/place/110+Appian+Way,+Kissimmee,+FL+34758/data=!4m2!3m1!1s0x88dd9db0c4d66c2b:0x4a7272dba0f11968?sa=X&ved=2ahUKEwjUqqCRueqEAxXWnokEHRy_AkgQ8gF6BAgWEAA",
+  },
+  {
+    image:
+      "https://photos.zillowstatic.com/fp/aa83b473443f26e57c2ff0926c9df9ee-uncropped_scaled_within_1536_1152.webp",
+    alt: "may not be available anymore",
+    address: "4276 Fort Courage Cir",
+    city: "Kissimmee",
+    link: "https://www.zillow.com/homedetails/4276-Fort-Courage-Cir-Kissimmee-FL-34746/46280352_zpid/",
+    price: "1,300",
+    directions:
+      "https://www.google.com/maps/place/4276+Fort+Courage+Cir,+Kissimmee,+FL+34746/@28.1661276,-81.4380832,17z/data=!3m1!4b1!4m6!3m5!1s0x88dd9c7ca671b703:0x952ca9aae968601d!8m2!3d28.1661276!4d-81.4380832!16s%2Fg%2F11t9m2n2xc?entry=ttu",
   },
 ];
 
