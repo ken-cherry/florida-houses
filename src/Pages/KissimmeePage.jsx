@@ -30,7 +30,7 @@ const KissimmeePage = () => {
                     <button className="btn">Listing</button>
                   </a>
                   {/* <RemoveComponent /> */}
-                  <button className="btn remove-btn">Remove</button>
+                  {/* <button className="btn remove-btn">Remove</button> */}
                   {/* <button
                     className="btn remove-btn"
                     onClick={(id) => handleRemove(id)}

@@ -26,7 +26,7 @@ const PoincianaPage = () => {
                   <a href={link} target="_blank" rel="noreferrer">
                     <button className="btn">Listing</button>
                   </a>
-                  <button className="btn remove-btn">Remove</button>
+                  {/* <button className="btn remove-btn">Remove</button> */}
                 </h3>
               </div>
             );

@@ -24,9 +24,9 @@ const Wrapper = styled.section`
     width: 276px;
   }
   .buttons {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 0.5rem;
+    grid-column-gap: 0.5rem; */
     margin-bottom: 0.5rem;
   }
   /* @media only screen and (min-width: 768px) {
